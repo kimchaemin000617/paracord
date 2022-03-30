@@ -84,7 +84,7 @@ pymysql.install_as_MySQLdb()
 ACADEMY = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'paracord_dev',
+        'NAME': 'paracord',
         'USER': 'sbsst',
         'PASSWORD': 'sbs123414',
         'HOST': '127.0.0.1',
