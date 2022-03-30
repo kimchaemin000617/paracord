@@ -10,6 +10,7 @@ from django.shortcuts import render, redirect
 from accounts.form import UserForm, SearchUserForm, LoginForm
 from chat.models import Room
 
+
 def login(request: HttpRequest):
     if request.method == 'POST':
         username = request.POST['username']
@@ -19,7 +20,7 @@ def login(request: HttpRequest):
             auth_login(request, user)
             user.is_active = 1
             user.save()
-            messages.info(request, f"돌아오셨군요ㅠㅠ {user.nickname}님..")
+            messages.info(request, f"돌아오셨네요 {user.nickname}님!!")
             return redirect('chat:list')
         else:
             messages.error(request, "잘못된 아이디/비밀번호 입니다.")
