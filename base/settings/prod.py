@@ -1,13 +1,13 @@
 from .common import *
 
-DEBUG = False
+DEBUG = True
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'paracord',
         'USER': 'sbsst',
-        'PASSWORD': '1r4q2e3w',
+        'PASSWORD': 'sbs123414',
         'HOST': '172.17.0.1',
         'PORT': '3306',
         'OPTIONS': {
