@@ -10,7 +10,7 @@ from django.shortcuts import render, redirect
 from accounts.form import UserForm, SearchUserForm, LoginForm
 from chat.models import Room
 
-
+# 로그인 View
 def login(request: HttpRequest):
     if request.method == 'POST':
         username = request.POST['username']
