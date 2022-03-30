@@ -85,8 +85,8 @@ ACADEMY = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'paracord_dev',
-        'USER': 'taeate',
-        'PASSWORD': 'tjdwls1451',
+        'USER': 'sbsst',
+        'PASSWORD': 'sbs123414',
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'OPTIONS': {
