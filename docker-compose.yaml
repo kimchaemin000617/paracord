@@ -8,5 +8,5 @@ services:
     container_name: python__2
     hostname: kimchi
     ports:
-      - 8022:8022
+      - 8000:8000
     # volumes:
