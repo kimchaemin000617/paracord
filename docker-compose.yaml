@@ -6,7 +6,7 @@ services:
     #command : bash
     # command : tail -f /dev/null
     container_name: python__2
-    hostname: root
+    hostname: kimchi
     ports:
       - 8022:8022
     # volumes:
